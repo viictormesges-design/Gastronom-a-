@@ -1,0 +1,159 @@
+html,body{
+    margin: 0;
+}
+header{
+    background-origin: padding-box;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("img-foot/fondo-de-pagina.jpg");
+    padding: 50px;
+    width: auto;
+    text-align: center;
+    color: rgb(247, 247, 244);
+    font-size: large;
+    letter-spacing: 2px;
+}
+nav{
+    text-align: center;
+    background: black;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    
+}
+nav ul{
+    list-style: none;
+    padding:  0;
+    margin: 0;
+    
+}
+nav li{
+    display: inline-block;
+    background-color: black;
+    border:  2px solid rgb(245, 241, 241);
+    padding: 8px 20px;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    
+}
+nav li,a{
+    color: white;
+    text-decoration: none;
+    border-radius: 1px;
+    border-radius: 20px;
+}
+figure.primera{
+    border: solid 1px;
+    text-align: center;
+    text-wrap: balance;
+    border-radius: 5px;
+    padding: 5px;
+    background: var(--principal);
+}
+figure.segundaria{
+    border: solid 1px;
+    text-align: center;
+    text-wrap: balance;
+    border-radius: 5px;
+    padding: 5px;
+    background: var(--segundario);
+}
+figure.tercera{
+    border: solid 1px;
+    text-align: center;
+    text-wrap: balance;
+    border-radius: 5px;
+    padding: 5px;
+    background: var(--tercera);
+}
+figure.cuarta{
+    border: solid 1px;
+    text-align: center;
+    text-wrap: balance;
+    border-radius: 5px;
+    padding: 5px;
+    background: var(--cuarta);
+}
+a.vermas1{
+    color: black;
+    font-size: 20px;
+    background-color: var(--cuarta);
+    border-radius: 5px;
+    padding: auto;
+    border: 1px solid black;
+}
+a.vermas2{
+    color: black;
+    font-size: 20px;
+    background-color: var(--cuarta);
+    border-radius: 5px;
+    padding: auto;
+    border: 1px solid black;
+}
+a.vermas3{
+    color: black;
+    font-size: 20px;
+    background-color: var(--cuarta);
+    border-radius: 5px;
+    padding: auto;
+    border: 1px solid black;
+}
+a.vermas4{
+    color: black;
+    font-size: 20px;
+    background-color: var(--tercera);
+    border-radius: 5px;
+    padding: auto;
+    border: 1px solid black;
+}
+img{
+    border-radius: 10px;
+}
+:root{
+    --principal:rgba(229, 244, 8, 0.893);
+    --segundario:rgba(9, 108, 247, 0.893);
+    --tercera:rgba(251, 48, 8, 0.829);
+    --cuarta:rgba(248, 248, 248, 0.829);
+}
+h2.titulos{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform:capitalize;
+    font-style: oblique;
+    text-shadow: 4px 3px 1px black;
+    color: rgb(243, 241, 241);
+}
+#bebidas div,#comidas div,#comidas-tradicionales div,#manjares div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+#bebidas figure,#comidas figure,#comidas-tradicionales figure,#manjares figure{
+    width: 280px;
+    box-sizing: border-box;
+}
+h1.contenido-principal,p.contenido-principal{
+    margin-left: 40px; 
+    margin-right: 40px;  
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: #111111;
+}
+main{
+    background: url("img-foot/Bandera.jpg");
+    background-repeat: no-repeat;
+    image-rendering: auto;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+a.privado,footer{
+    text-decoration: none;
+    font-style: none;
+    color: rgb(248, 244, 244);
+    text-align: center;
+    background: rgb(6, 6, 6);
+}
+footer{
+    padding: 10px;
+    margin-bottom: 0px;
+}
