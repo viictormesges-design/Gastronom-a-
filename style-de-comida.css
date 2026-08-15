@@ -3,7 +3,7 @@ html,body{
 }
 header{
     background-origin: padding-box;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("img-foot/fondo-de-pagina.jpg");
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("fondo-de-pagina.jpg");
     padding: 50px;
     width: auto;
     text-align: center;
@@ -138,7 +138,7 @@ h1.contenido-principal,p.contenido-principal{
     color: #111111;
 }
 main{
-    background: url("img-foot/Bandera.jpg");
+    background: url("Bandera.jpg");
     background-repeat: no-repeat;
     image-rendering: auto;
     background-size: cover;
